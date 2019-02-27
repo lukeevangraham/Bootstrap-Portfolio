@@ -4,11 +4,11 @@ body {
 
 #bio-image {
     width: 200px;
-    float: left;
+    /* float: left; */
     margin-right: 20px;
 }
 
 article {
     background-color: #ffffff;
-padding: 20px;
+    padding: 20px;
 }
