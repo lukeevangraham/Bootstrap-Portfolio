@@ -16,3 +16,7 @@ article {
 p {
     line-height: 2;
 }
+
+.footer {
+    background-color: #666666;
+  }
