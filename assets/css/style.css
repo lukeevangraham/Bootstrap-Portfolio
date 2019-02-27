@@ -12,3 +12,7 @@ article {
     background-color: #ffffff;
     padding: 20px;
 }
+
+p {
+    line-height: 2;
+}
