@@ -37,10 +37,24 @@
           <article>
             <h2 class="text-info">Contact</h2>
             <hr>
-            <img src="assets/images/profile.jpg" alt="Luke Graham" id="bio-image" class="float-left">
 
-            <p class="text-secondary">A husband and soon-to-be father Luke Graham has been building websites since 1995.  In addition to tweaking HTML and CSS Luke helps non-profits plan experiences where thoughtful people receive wisdom and camaraderie.</p>
-            <p class="text-secondary">Luke values resourcefulness, optimism and dependability.  He caught the travel-bug in 2016 and enjoys posting video highlights of his travels on YouTube.  Luke has a great Instant Pot recipe for garlic chicken.  Luke’s mission is to inspire others and help them enjoy life more.</p>
+            <form>
+                <div class="form-group">
+                  <label for="contactInputName">Name</label>
+                  <input type="name" class="form-control" id="contactInputName" aria-describedby="nameHelp" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            
         </article>
         </div>
       </div>
