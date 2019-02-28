@@ -21,3 +21,18 @@ p {
 .footer {
     background-color: #666666;
   }
+
+  .imageandtext {
+    position: relative;
+  }
+
+  .centered {
+    position: absolute;
+    left: 0;
+    top: 110%;
+    margin-top: -55px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
