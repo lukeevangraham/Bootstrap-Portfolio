@@ -2,6 +2,10 @@ body {
     background-image: url(../images/white-waves.png);
 }
 
+body, html {
+    height: 100%;
+}
+
 #bio-image {
     width: 200px;
     /* float: left; */
@@ -20,19 +24,22 @@ p {
 
 .footer {
     background-color: #666666;
+    padding-top: 170px;
   }
 
-  .imageandtext {
-    position: relative;
-  }
+.imageandtext {
+    float: left;
+    /* margin-right: 32px; */
+    /* margin-bottom: 37px; */
+}
 
-  .centered {
+.centered {
     position: absolute;
-    left: 0;
-    top: 110%;
-    margin-top: -55px;
+    margin-top: -40px;
     background-color: #4aaaa5;
-    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #ffffff;
+    width: 270px;
     text-align: center;
-    width: 100%;
-  }
+}
