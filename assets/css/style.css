@@ -56,4 +56,20 @@ p {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 28px;
     background-color: #4aaaa5;
+    font-weight: bold;
+    padding: 150px;
+}
+
+.text-title {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:visited,
+.btn-info:focus {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
 }
