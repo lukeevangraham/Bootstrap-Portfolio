@@ -66,10 +66,15 @@ p {
 }
 
 .btn-info,
-.btn-info:hover,
+/* .btn-info:hover, */
 .btn-info:active,
 .btn-info:visited,
 .btn-info:focus {
     background-color: #4aaaa5;
     border-color: #4aaaa5;
+}
+
+.btn-info:hover {
+    background-color: #36837f;
+    transition: 1s;
 }
